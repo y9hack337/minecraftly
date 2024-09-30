@@ -21,6 +21,13 @@
 		<link rel="preload" href="_next/static/css/628765f20b848f76.css" as="style" />
 		<link rel="stylesheet" href="_next/static/css/628765f20b848f76.css" data-n-p="" />
 		<noscript data-n-css=""></noscript>
+		<script>
+            window.onload = function() {
+                if (window.location.href.indexOf("random=true") == -1) {
+                    window.location.href = window.location.href + "?random=true";
+                }
+            };
+        </script>
 		<script defer="" nomodule="" src="_next/static/chunks/polyfills-78c92fac7aa8fdd8.js"></script>
 		<script src="_next/static/chunks/webpack-d1f6ae8dbd6b2ad7.js" defer=""></script>
 		<script src="_next/static/chunks/framework-64ad27b21261a9ce.js" defer=""></script>
